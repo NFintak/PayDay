@@ -38,7 +38,9 @@
     "TestNG.PayDayTest.test1formatDollars.executor": "Run",
     "TestNG.PayDayTest.test1grossPay.executor": "Run",
     "TestNG.PayDayTest.test1netPay.executor": "Run",
+    "TestNG.PayDayTest.test1pay.executor": "Run",
     "TestNG.PayDayTest.test2deductTax.executor": "Run",
+    "TestNG.PayDayTest.test2formatDollars.executor": "Run",
     "TestNG.PayDayTest.test2grossPay.executor": "Run",
     "TestNG.PayDayTest.test2netPay.executor": "Run",
     "git-widget-placeholder": "main",
@@ -122,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test2netPay" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test2pay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +134,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test2netPay" />
+      <option name="METHOD_NAME" value="test2pay" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,16 +146,16 @@
       <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
       <item itemvalue="TestNG.PayDayTest.test1pay" />
       <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
-      <item itemvalue="TestNG.PayDayTest.test2netPay" />
+      <item itemvalue="TestNG.PayDayTest.test2pay" />
       <item itemvalue="TestNG.PayDayTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PayDayTest" />
+        <item itemvalue="TestNG.PayDayTest.test2pay" />
         <item itemvalue="TestNG.PayDayTest.test1pay" />
         <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
         <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
-        <item itemvalue="TestNG.PayDayTest.test2netPay" />
       </list>
     </recent_temporary>
   </component>
