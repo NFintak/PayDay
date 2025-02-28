@@ -66,7 +66,7 @@ public class PayDay {
         return dt;
     }
     public double netPay(double gross, double deduction) {
-        double np = gross * deduction;
+        double np = gross - deduction;
         return np;
     }
 
